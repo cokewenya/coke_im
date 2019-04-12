@@ -1,0 +1,12 @@
+{
+    "name": "SooCoke/request",
+    "description": "request Package",
+    "autoload": {
+        "psr-4": {
+            "SooCoke\\request\\": "src/"
+        },
+        "files": [
+            "src/request.php"
+        ]
+    }
+}
