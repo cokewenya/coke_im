@@ -2,7 +2,7 @@
 
 //版本检测
 if (version_compare(PHP_VERSION, '7.0', '<')) {
-    exit('请使用PHP7.0及以上版本');
+    throw new Swoole\ExitException('请使用PHP7.0及以上版本');
 }
 
 //项目根目录
